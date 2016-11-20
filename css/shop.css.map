@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,gBAAgB,EAAE,IAAI",
+"sources": ["shop.scss"],
+"names": [],
+"file": "shop.css"
+}

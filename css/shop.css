@@ -1,0 +1,42 @@
+body{
+	background-color: #dbdbdb;
+}
+
+#buttonCart{
+		width: 100%;
+		background-image: none;
+}
+/*# sourceMappingURL=shop.css.map */
+.navbar-light .navbar-toggler{
+	
+  
+	
+	
+}
+
+
+
+@media (max-width: 768px) { 
+	.navbar-light .navbar-toggler{
+		width: 100;
+		border-radius: 0;
+	} 
+}
+@media (min-width:  768px) and (max-width: 992px) { 
+	.navbar-light .navbar-toggler{
+		width: 100;
+		border-radius: 0;
+	} 
+ }
+@media (min-width:  992px ) and (max-width: 1200px) { 
+	.navbar-light .navbar-toggler{
+		width: 100;
+		border-radius: 0;
+	} 
+}
+@media (min-width: 1200px ) { 
+	.navbar-light .navbar-toggler{
+		width: 100;
+		border-radius: 0;
+	} 
+ }
