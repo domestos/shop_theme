@@ -2,41 +2,46 @@ body{
 	background-color: #dbdbdb;
 }
 
-#buttonCart{
-		width: 100%;
-		background-image: none;
+nav{
+	background-color: #dbdbdb;
 }
-/*# sourceMappingURL=shop.css.map */
-.navbar-light .navbar-toggler{
-	
-  
-	
-	
+
+.navbar {
+ 	padding: .5rem 1rem;
+}
+
+.navbar-toggleable-md .navbar-nav{
+margin-top: 0rem;
+}
+
+#container-navbar-btn{
+	padding-right: 0px;
+	padding-left: 0px;
+
+}
+
+#navbar-bnt-menu,
+#navbar-bnt-phone,
+#navbar-bnt-seach,
+#navbar-bnt-cart
+{
+	width: 100%;
+	border-radius: 0px;
+}
+
+#navbar-bnt-cart{
+	background-image: url('../img/icon/1479761672_cart1.png');
+	text-align: center;
+	padding-left: 30%;
+
+}
+
+#navbar-bnt-seach{
+	background-image: url('../img/icon/1479760980_f002.png');	
+}
+
+#navbar-bnt-phone{
+	background-image: url('../img/icon/1479761281_ic_local_phone_48px.png');	
 }
 
 
-
-@media (max-width: 768px) { 
-	.navbar-light .navbar-toggler{
-		width: 100;
-		border-radius: 0;
-	} 
-}
-@media (min-width:  768px) and (max-width: 992px) { 
-	.navbar-light .navbar-toggler{
-		width: 100;
-		border-radius: 0;
-	} 
- }
-@media (min-width:  992px ) and (max-width: 1200px) { 
-	.navbar-light .navbar-toggler{
-		width: 100;
-		border-radius: 0;
-	} 
-}
-@media (min-width: 1200px ) { 
-	.navbar-light .navbar-toggler{
-		width: 100;
-		border-radius: 0;
-	} 
- }
