@@ -11,13 +11,12 @@ nav{
 }
 
 .navbar-toggleable-md .navbar-nav{
-margin-top: 0rem;
+	margin-top: 0rem;
 }
 
 #container-navbar-btn{
 	padding-right: 0px;
 	padding-left: 0px;
-
 }
 
 #navbar-bnt-menu,
@@ -33,7 +32,6 @@ margin-top: 0rem;
 	background-image: url('../img/icon/1479761672_cart1.png');
 	text-align: center;
 	padding-left: 30%;
-
 }
 
 #navbar-bnt-seach{
