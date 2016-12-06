@@ -2,12 +2,18 @@ body{
 	background-color: #dbdbdb;
 }
 
-nav{
-	background-color: #dbdbdb;
+.site-header {
+   background-color: #2D2D2D; 
 }
 
 .navbar {
- 	padding: .5rem 1rem;
+
+ 	padding: 1.5rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5cb85c;
+    display: inline-block;
 }
 
 .navbar-toggleable-md .navbar-nav{
@@ -43,3 +49,62 @@ nav{
 }
 
 
+
+
+
+@media (max-width: 768px) {
+	
+ }
+ 
+ @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+ @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media screen and (max-width:  990px ) {
+
+.navbar {
+
+ 	padding: 0rem 0rem;
+}
+
+	 .navbar-brand{
+	 	margin:0px auto;
+	 	
+	 	float: none;
+	} 
+	
+	.site-header {
+	   background-color: #9c9; 
+	}
+	
+ } 
+
+
+
+/* CAROUSEL */
+
+
+.carousel-inner img {
+  height: auto;
+  width: 100%;
+}
+/*
+ опис того як розятгувати зображення в каруселі
+ http://ru.stackoverflow.com/questions/535485/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D1%83-%D0%BA%D0%B0%D1%80%D1%83%D1%81%D0%B5%D0%BB%D0%B8-bootstrap 
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+*/
+.carousel {
+  height: 400px !important;
+  overflow: hidden;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-inner img {
+  left: 50%;
+  max-width: none !important;
+  min-height: 400px;
+  min-width: 100%;
+  position: absolute;
+  top: 200px;
+  transform: translate(-50%,-50%);
+}

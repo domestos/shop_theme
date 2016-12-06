@@ -11,7 +11,7 @@ $( document ).ready(function() {
 			var scrollPosition = $(window).scrollTop();
 			$element = $('.navbar');
 
-			if(scrollPosition >=navOffset){
+			if(scrollPosition >=navOffset+1){
 				$element.addClass("navbar-fixed-top");
 			}else{
 				
